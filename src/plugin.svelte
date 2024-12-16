@@ -13,7 +13,7 @@
 </script>
 
 {#if doc}
-	<h2>Welcome to new-oscd-plugin</h2>
+	<h2>Welcome to oscd-io-centern</h2>
 {/if}
 
 <input type="hidden" name="package-name" value={pckg.name} />
