@@ -711,8 +711,8 @@ function vt(t, n) {
   // `progress` elements always need their value set when its `0`
   t.value === n && (n !== 0 || t.nodeName !== "PROGRESS") || (t.value = n);
 }
-const Ot = "new-oscd-plugin", Pt = "0.0.1";
-var kn = /* @__PURE__ */ Dt("<h2>Welcome to new-oscd-plugin</h2>"), Rn = /* @__PURE__ */ Dt('<!> <input type="hidden" name="package-name"> <input type="hidden" name="package-version">', 1);
+const Ot = "oscd-io-centern", Pt = "0.0.1";
+var kn = /* @__PURE__ */ Dt("<h2>Welcome to oscd-io-centern</h2>"), Rn = /* @__PURE__ */ Dt('<!> <input type="hidden" name="package-name"> <input type="hidden" name="package-version">', 1);
 function Fn(t, n) {
   Ft(n, !0);
   var r = Rn(), e = nn(r);

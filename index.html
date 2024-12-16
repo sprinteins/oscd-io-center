@@ -20,16 +20,16 @@
 	<hr />
 
 	<div id="app">
-		<new-oscd-plugin></new-oscd-plugin>
+		<oscd-io-centern></oscd-io-centern>
 	</div>
 	<script type="module">
 		import NewOSCDPlugin from './index.js';
-		customElements.define('new-oscd-plugin', NewOSCDPlugin);
+		customElements.define('oscd-io-centern', NewOSCDPlugin);
 
 		const xmlString = `<SCL></SCL>`
 		const parser = new DOMParser();
 		const xmlDoc = parser.parseFromString(xmlString, "application/xml");
-		document.querySelector('new-oscd-plugin').doc = xmlDoc
+		document.querySelector('oscd-io-centern').doc = xmlDoc
 
 	</script>
 
