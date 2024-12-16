@@ -5,11 +5,11 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
 	plugins: [svelte()],
 	server: {
-		port: 54187,
+		port: 49678,
 	},
 	build: {
 		lib: {
-			entry:   "src/plugin.ts",
+			entry:   "src/plugin.svelte.ts",
 			fileName: "index",
 			formats: ["es"],
 		},

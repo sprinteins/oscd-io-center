@@ -9,12 +9,12 @@
 		editCount: number;
 	}
 
-	let { doc, editCount }: Props = $props();
+	// let { doc, editCount }: Props = $props();
 </script>
 
-{#if doc}
-	<h2>Welcome to oscd-io-centern</h2>
-{/if}
+
+<h2>Welcome to oscd-io-centern</h2>
+
 
 <input type="hidden" name="package-name" value={pckg.name} />
 <input type="hidden" name="package-version" value={pckg.version} />
